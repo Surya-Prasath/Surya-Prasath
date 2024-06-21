@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="././static/style.css">
+
+        <link rel="preload" href="./static/t/Aeonik-Bold.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="./static/t/Aeonik-Light.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="./static/t/Aeonik-Medium.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="./static/t/Aeonik-Regular.woff2" as="font" type="font/woff2" crossorigin>
+
+        <title>tetToken</title>
+        <link href="./static/img/fav.png" rel="icon" sizes="128x128" type="image/png">
+		
+    </head>
+
+    <body class="single">
+        
+<style>
+	.trezy header,
+	.nextP {
+		color: #000000;
+	}
+
+	.trezy header svg path {
+		fill: #000000;
+	}
+
+	.trezy header .toClose g {
+		stroke: #000000;
+	}
+
+	.trezy .hero {
+		background: #55d1bd;
+		color: #000000;
+	}
+
+	.trezy .toNext path {
+		stroke: #000000
+	}
+
+</style>
+
+        
+        <div id="explore">
+            <div class="iEx">
+                <div>Explore</div>
+            </div>
+        </div>
+
+        <section id="main">
+            <section id="garciScroll" class=tetToken>
+
+                <header class="wrap2">
+                    <div class="flex space center">
+						<a href="./" class="lien" aria-label="Logo Dared">
+							<div>
+								<svg id="dared" width="91" height="26" viewBox="0 0 91 26"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M1.48889 15.66C1.48889 14 1.82889 12.53 2.50889 11.25C3.20889 9.97 4.14889 8.98 5.32889 8.28C6.52889 7.56 7.85889 7.2 9.31889 7.2C10.3989 7.2 11.4589 7.44 12.4989 7.92C13.5589 8.38 14.3989 9 15.0189 9.78V1.8H18.4689V24H15.0189V21.51C14.4589 22.31 13.6789 22.97 12.6789 23.49C11.6989 24.01 10.5689 24.27 9.28889 24.27C7.84889 24.27 6.52889 23.91 5.32889 23.19C4.14889 22.45 3.20889 21.43 2.50889 20.13C1.82889 18.81 1.48889 17.32 1.48889 15.66ZM15.0189 15.72C15.0189 14.58 14.7789 13.59 14.2989 12.75C13.8389 11.91 13.2289 11.27 12.4689 10.83C11.7089 10.39 10.8889 10.17 10.0089 10.17C9.12889 10.17 8.30889 10.39 7.54889 10.83C6.78889 11.25 6.16889 11.88 5.68889 12.72C5.22889 13.54 4.99889 14.52 4.99889 15.66C4.99889 16.8 5.22889 17.8 5.68889 18.66C6.16889 19.52 6.78889 20.18 7.54889 20.64C8.32889 21.08 9.14889 21.3 10.0089 21.3C10.8889 21.3 11.7089 21.08 12.4689 20.64C13.2289 20.2 13.8389 19.56 14.2989 18.72C14.7789 17.86 15.0189 16.86 15.0189 15.72Z"
+										stroke=#1e266d stroke-width="2" mask="url(#path-1-outside-1_11_95)" />
+									<path
+										d="M21.8209 15.66C21.8209 14 22.1609 12.53 22.8409 11.25C23.5409 9.97 24.4809 8.98 25.6609 8.28C26.8609 7.56 28.1809 7.2 29.6209 7.2C30.9209 7.2 32.0509 7.46 33.0109 7.98C33.9909 8.48 34.7709 9.11 35.3509 9.87V7.47H38.8009V24H35.3509V21.54C34.7709 22.32 33.9809 22.97 32.9809 23.49C31.9809 24.01 30.8409 24.27 29.5609 24.27C28.1409 24.27 26.8409 23.91 25.6609 23.19C24.4809 22.45 23.5409 21.43 22.8409 20.13C22.1609 18.81 21.8209 17.32 21.8209 15.66ZM35.3509 15.72C35.3509 14.58 35.1109 13.59 34.6309 12.75C34.1709 11.91 33.5609 11.27 32.8009 10.83C32.0409 10.39 31.2209 10.17 30.3409 10.17C29.4609 10.17 28.6409 10.39 27.8809 10.83C27.1209 11.25 26.5009 11.88 26.0209 12.72C25.5609 13.54 25.3309 14.52 25.3309 15.66C25.3309 16.8 25.5609 17.8 26.0209 18.66C26.5009 19.52 27.1209 20.18 27.8809 20.64C28.6609 21.08 29.4809 21.3 30.3409 21.3C31.2209 21.3 32.0409 21.08 32.8009 20.64C33.5609 20.2 34.1709 19.56 34.6309 18.72C35.1109 17.86 35.3509 16.86 35.3509 15.72Z"
+										stroke=#1e266d stroke-width="2" mask="url(#path-1-outside-1_11_95)" />
+									<path
+										d="M46.713 9.87C47.213 9.03 47.873 8.38 48.693 7.92C49.533 7.44 50.523 7.2 51.663 7.2V10.74H50.793C49.453 10.74 48.433 11.08 47.733 11.76C47.053 12.44 46.713 13.62 46.713 15.3V24H43.293V7.47H46.713V9.87Z"
+										stroke=#1e266d stroke-width="2" mask="url(#path-1-outside-1_11_95)" />
+									<path
+										d="M69.9566 15.33C69.9566 15.95 69.9166 16.51 69.8366 17.01H57.2066C57.3066 18.33 57.7966 19.39 58.6766 20.19C59.5566 20.99 60.6366 21.39 61.9166 21.39C63.7566 21.39 65.0566 20.62 65.8166 19.08H69.5066C69.0066 20.6 68.0966 21.85 66.7766 22.83C65.4766 23.79 63.8566 24.27 61.9166 24.27C60.3366 24.27 58.9166 23.92 57.6566 23.22C56.4166 22.5 55.4366 21.5 54.7166 20.22C54.0166 18.92 53.6666 17.42 53.6666 15.72C53.6666 14.02 54.0066 12.53 54.6866 11.25C55.3866 9.95 56.3566 8.95 57.5966 8.25C58.8566 7.55 60.2966 7.2 61.9166 7.2C63.4766 7.2 64.8666 7.54 66.0866 8.22C67.3066 8.9 68.2566 9.86 68.9366 11.1C69.6166 12.32 69.9566 13.73 69.9566 15.33ZM66.3866 14.25C66.3666 12.99 65.9166 11.98 65.0366 11.22C64.1566 10.46 63.0666 10.08 61.7666 10.08C60.5866 10.08 59.5766 10.46 58.7366 11.22C57.8966 11.96 57.3966 12.97 57.2366 14.25H66.3866Z"
+										stroke=#1e266d stroke-width="2" mask="url(#path-1-outside-1_11_95)" />
+									<path
+										d="M72.1823 15.66C72.1823 14 72.5222 12.53 73.2022 11.25C73.9022 9.97 74.8422 8.98 76.0222 8.28C77.2222 7.56 78.5523 7.2 80.0123 7.2C81.0923 7.2 82.1523 7.44 83.1923 7.92C84.2523 8.38 85.0922 9 85.7122 9.78V1.8H89.1623V24H85.7122V21.51C85.1523 22.31 84.3723 22.97 83.3723 23.49C82.3923 24.01 81.2623 24.27 79.9823 24.27C78.5423 24.27 77.2222 23.91 76.0222 23.19C74.8422 22.45 73.9022 21.43 73.2022 20.13C72.5222 18.81 72.1823 17.32 72.1823 15.66ZM85.7122 15.72C85.7122 14.58 85.4723 13.59 84.9922 12.75C84.5322 11.91 83.9223 11.27 83.1623 10.83C82.4023 10.39 81.5822 10.17 80.7022 10.17C79.8223 10.17 79.0023 10.39 78.2422 10.83C77.4822 11.25 76.8623 11.88 76.3822 12.72C75.9222 13.54 75.6923 14.52 75.6923 15.66C75.6923 16.8 75.9222 17.8 76.3822 18.66C76.8623 19.52 77.4822 20.18 78.2422 20.64C79.0222 21.08 79.8422 21.3 80.7022 21.3C81.5822 21.3 82.4023 21.08 83.1623 20.64C83.9223 20.2 84.5322 19.56 84.9922 18.72C85.4723 17.86 85.7122 16.86 85.7122 15.72Z"
+										stroke=#1e266d stroke-width="2" mask="url(#path-1-outside-1_11_95)" />
+								</svg>
+
+							</div>
+						</a>
+						<nav>
+							<span class="menu hidden">Menu</span>
+							<button class="toProjets hover">
+								<span class="mot1"><span>Projects</span></span>
+								<span class="mot2"><span>Projects</span></span>
+							</button><a href="about" class="lien hover toAbout">
+								<span class="mot1"><span>About</span></span>
+								<span class="mot2"><span>About</span></span>
+							</a>
+						</nav>
+
+						<button class="toMenu hidden" aria-label="Open menu">
+							<svg fill="none" height="10" viewBox="0 0 16 10" width="16"
+								xmlns="http://www.w3.org/2000/svg">
+								<path clip-rule="evenodd"
+									d="m0 .5c0-.276142.223858-.5.5-.5h15c.2761 0 .5.223858.5.5s-.2239.5-.5.5h-15c-.276142 0-.5-.223858-.5-.5zm0 4.44444c0 .27615.223858.5.5.5h15c.2761 0 .5-.22385.5-.5 0-.27614-.2239-.5-.5-.5h-15c-.276142 0-.5.22386-.5.5zm0 4.44445c0 .27614.223858.5.5.5h15c.2761 0 .5-.22386.5-.5 0-.27615-.2239-.5-.5-.5h-15c-.276142 0-.5.22385-.5.5z"
+									fill="#fff" fill-rule="evenodd" />
+							</svg>
+						</button>
+						<button class="toClose hidden" aria-label="Close menu">
+							<svg fill="none" height="15" viewBox="0 0 15 15" width="15"
+								xmlns="http://www.w3.org/2000/svg">
+								<g stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+									<path d="m14.5.5-14 14" />
+									<path d="m14.5 14.5-14-14" />
+								</g>
+							</svg>
+						</button>
+					</div>
+                </header>
+                <section class="hero flex center">
+                    <div class="wrap2 titre viewport">
+                        <span class="chiffre">3</span>
+                        <h1 class="h1Single">
+                            <div class="haut">tetToken</div>
+                            <div class="bas">tetToken</div>
+                        </h1>
+                    </div>
+
+                    <div class="flex datas wrap center viewport">
+                        <div class="flex space">
+                            <div class="data">
+                                <em>Category</em>
+                                <p>EVM</p>
+                            </div>
+                            <div class="data">
+                                <em>Description</em>
+                                <p>tet ctf - This challenge contains both web and web3 part in it. The web3 contains a simple re-entrancy.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+				
+                <section class="contentScroll fonce">
+                    <!-- <section class="fonce"> -->
+                    <div class="content">
+                        
+
+
+<div class="wrap2 wrapMobile">
+	<div class="quote2">
+		<p>Summary</p>
+		<span>This challenge contains both web and web3 part. The web3 part is reentrancy with few struggles as the challenge is deployed on the test net. In web part you set the host header to your own host on
+			password reset and I'm not digging it deeper as i didn't solve the web part.</span>
+		<p>Intro to challenge</p>
+
+		<img src="././static/img/tetToken/tokenContract.webp" alt="Contract code" class="half">
+
+
+		<img src="././static/img/tetToken/flagContract.webp" alt="Contract code" class="half">
+
+		<span>These are the two contracts which you can find here
+			<a href="https://testnet.bscscan.com/address/0x1f179302c95bb40be5ec969fb670b0430cf73b01" target="_blank"
+				rel="noopener noreferrer"><u>TetCTFToken</u></a>
+			and
+			<a href="https://testnet.bscscan.com/address/0x5222a03a645a1f71d946a6399881d60dbb5f569e" target="_blank"
+				rel="noopener noreferrer"><u>FlagStore</u></a>
+		</span>
+		<br>
+		<span>The web application checks for flagClaimed["username with which we logged in"] is equal to True then it
+			gives the flag and it had safety mechanisms against forging the name of already completed username.</span>
+		<br>
+		<span>The <code>TetCTFToken</code> contract is nothing but a ERC20 token contract with owner previlged
+			functions. The <code>FlagStore</code> contract contains some interesting functions.</span>
+		<br>
+		<span>First the <code>deposit</code> function mints the TetCTFToken to caller for the amount of ether the caller sends.
+			The <code>buyFlag</code> function doesn't support contracts and it checks for <code>flagPrice</code> to
+			complete the challenge. The <code>withdraw</code> burns the entire balance the caller hold and return the
+			ether for it.</span>
+		<br>
+		<span>We can notice that every function here is <code>nonReentrant</code> but, <code>withdraw</code> function
+			contains a <code>call</code> in it which is re-entrant isn't it? </span>
+
+		<img src="././static/img/tetToken/attack.webp" alt="Attacking contract" class="half">
+
+		<span>Attacking contract looks something like this. The <code>receive</code> function gets triggered whenever we receive any tokens and we transfer the
+			tetCtfToken before getting burnt. We have a self destruct to prevent code getting revealed to other players and tokens from getting locked because bsc
+			testnet faucet sends 0.5 BNB per wallet address after performing such a transactions. we would end up with
+			ether which would not be sufficient for further transactions.</span>
+		<br>
+		<span>The attack function loops as per gas we supply and calls the deposit function which sends ether from our contract inreturn for tetTokens and then calling withdraw function triggers the receive function and we send the tetTokens to a different account after getting our ether back and repeat it.</span>
+		<img src="././static/img/tetToken/transaction.webp" alt="Transaction in bsc scan" class="full">
+
+		<span>The transactions look something like this where we create a contract and call the attack function and then
+			destruct it.</span>
+
+		<img src="././static/img/tetToken/internalTxn.webp" alt="Tokens transfered" class="full">
+
+		<span>The mint function creates tokens from 0x0 account to our account then we send the tetTokens back to our
+			address and no tetTokens is burned. We repeat this process until we achieve the desired
+			<code>flagPrice</code> to solve the challenge.</span>
+		<br>
+		<br>
+	</div>
+</div>
+
+
+
+                    </div>
+
+                    </div>
+                    <!-- </section> -->
+                </section>
+
+            </section>
+            <section id="footer2">
+
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=8lackcandy@gmail.com" class="toContact flex center" target="_blank">
+                    <span>I am Noob</span><span>I am Noob</span><span>I am Noob</span>
+
+                </a>
+                <footer class="wrap flex space center">
+                    <div>
+                        <a target="_blank" href="https://twitter.com/suryaxprasath" class="hover">
+                            <span class="mot1"><span>Twitter</span></span>
+                            <span class="mot2"><span>Twitter</span></span>
+                        </a>
+                    </div>
+                    <div>
+                        <a target="_blank" href="https://github.com/surya-prasath" class="hover">
+                            <span class="mot1"><span>Github</span></span>
+                            <span class="mot2"><span>Github</span></span>
+                        </a>
+                    </div>
+                    <div>
+                        <a target="_blank" href="https://www.instagram.com/suryaxprasath" class="hover">
+                            <span class="mot1"><span>Instagram</span></span>
+                            <span class="mot2"><span>Instagram</span></span>
+                        </a>
+                    </div>
+					<div>
+						<a target="_blank" href="https://www.linkedin.com/in/surya-prasath-158227235/" class="hover">
+							<span class="mot1"><span>LinkedIn</span></span>
+							<span class="mot2"><span>LinkedIn</span></span>
+						</a>
+					</div>
+                </footer>
+
+            </section>
+
+        </section>
+		
+		<section id="projets">
+
+            <div class="innerC aimant">
+                <button class="close suit">
+                    <svg fill="none" height="15" viewBox="0 0 15 15" width="15" xmlns="http://www.w3.org/2000/svg">
+                        <g stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+                            <path d="m14.5.5-14 14" />
+                            <path d="m14.5 14.5-14-14" />
+                        </g>
+                    </svg>
+                </button>
+            </div>
+
+			<div class="liste">
+                <button class="current"><span>tetToken</span></button>
+                
+                <button><span>jump</span></button>
+                
+                <button><span>evmvm</span></button>
+                
+            </div>
+
+			<div class="innerExp">
+				
+				<a href="./tetToken" data-url=tetToken
+					data-url-basic="./tetToken"
+					class="lien fiche current tetToken" data-z=0 data-nb="1"
+					data-index=3>
+					<span class="nextP">Next project</span>
+					<svg class="toNext" fill="none" height="23" viewBox="0 0 26 23" width="26"
+						xmlns="http://www.w3.org/2000/svg">
+						<g stroke="#353175" stroke-miterlimit="10" stroke-width="2">
+							<path d="m1 21.5411 24-20.5411" />
+							<path d="m13 1h12v10.2705" stroke-linecap="square" />
+						</g>
+					</svg>
+
+					<div class="hero flex center">
+						<div class="wrap2 titre">
+							<span class="chiffre">3</span>
+							<h1 class="h1Single">
+								<div class="haut">tetToken</div>
+								<div class="bas">tetToken</div>
+							</h1>
+						</div>
+
+						<div class="flex datas wrap center">
+							<div class="flex space">
+								<div class="data">
+									<em>Category</em>
+									<p>EVM</p>
+								</div>
+								<div class="data">
+									<em>Description</em>
+									<p>tet ctf - This challenge contains both web and web3 part in it. The web3 contains a simple re-entrancy.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</a>
+
+				
+				<a href="./jump" data-url=jump
+					data-url-basic="./jump"
+					class="lien fiche jump" data-z=-20 data-nb="1"
+					data-index=2>
+					<span class="nextP">Next project</span>
+					<svg class="toNext" fill="none" height="23" viewBox="0 0 26 23" width="26"
+						xmlns="http://www.w3.org/2000/svg">
+						<g stroke="#353175" stroke-miterlimit="10" stroke-width="2">
+							<path d="m1 21.5411 24-20.5411" />
+							<path d="m13 1h12v10.2705" stroke-linecap="square" />
+						</g>
+					</svg>
+
+					<div class="hero flex center">
+						<div class="wrap2 titre">
+							<span class="chiffre">1</span>
+							<h1 class="h1Single">
+								<div class="haut">jump</div>
+								<div class="bas">jump</div>
+							</h1>
+						</div>
+
+						<div class="flex datas wrap center">
+							<div class="flex space">
+								<div class="data">
+									<em>Category</em>
+									<p>EVM</p>
+								</div>
+								<div class="data">
+									<em>Description</em>
+									<p>nahamcon ctf - The challenge is to bypass the impossible conditions with the help of a function which alters the memory to point to a different jump location</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</a>
+				
+				<a href="./evmvm" data-url=evmvm
+					data-url-basic="./evmvm"
+					class="lien fiche evmvm" data-z=-40 data-nb="1"
+					data-index=1>
+					<span class="nextP">Next project</span>
+					<svg class="toNext" fill="none" height="23" viewBox="0 0 26 23" width="26"
+						xmlns="http://www.w3.org/2000/svg">
+						<g stroke="#353175" stroke-miterlimit="10" stroke-width="2">
+							<path d="m1 21.5411 24-20.5411" />
+							<path d="m13 1h12v10.2705" stroke-linecap="square" />
+						</g>
+					</svg>
+
+					<div class="hero flex center">
+						<div class="wrap2 titre">
+							<span class="chiffre">2</span>
+							<h1 class="h1Single">
+								<div class="haut">evmvm</div>
+								<div class="bas">evmvm</div>
+							</h1>
+						</div>
+
+						<div class="flex datas wrap center">
+							<div class="flex space">
+								<div class="data">
+									<em>Category</em>
+									<p>EVM</p>
+								</div>
+								<div class="data">
+									<em>Description</em>
+									<p>la ctf - the challenge is to call the Setup contract using another deployed contract which lets you execute one opcode for each call with a weird behaviour of functions inside assembly.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</a>
+				
+
+			</div>
+
+            <div class="innerBtn">
+                <button class="prev">
+                    <svg fill="none" height="11" viewBox="0 0 21 11" width="21" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m.5 10.5 10-10 10 10" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-miterlimit="10" />
+                    </svg>
+                </button>
+                <button class="next">
+                    <svg fill="none" height="11" viewBox="0 0 21 11" width="21" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m.5 10.5 10-10 10 10" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-miterlimit="10" />
+                    </svg>
+                </button>
+            </div>
+
+        </section>
+
+        <section id="webgl"></section>
+        <script src="./static/js/app.js"></script>
+    </body>
+
+</html>

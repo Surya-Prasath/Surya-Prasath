@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="../static/style.css">
+
+		<link rel="preload" href="../static/t/Aeonik-Bold.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="../static/t/Aeonik-Light.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="../static/t/Aeonik-Medium.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="../static/t/Aeonik-Regular.woff2" as="font" type="font/woff2" crossorigin>
+
+		<title>404 error page — Dared</title>
+		<link href="../static/img/fav.png" rel="icon" sizes="128x128" type="image/png">
+
+	</head>
+
+	<body class="p404">
+
+
+		<style>
+			.trezy header,
+			.nextP {
+				color: #000000;
+			}
+
+			.trezy header svg path {
+				fill: #000000;
+			}
+
+			.trezy header .toClose g {
+				stroke: #000000;
+			}
+
+			.trezy .hero {
+				background: #55d1bd;
+				color: #000000;
+			}
+
+			.trezy .toNext path {
+				stroke: #000000
+			}
+
+		</style>
+		<div id="explore">
+			<div class="iEx">
+				<div>Explore</div>
+			</div>
+		</div>
+		<section id="projets">
+
+			<div class="innerC aimant">
+				<button class="close suit">
+					<svg fill="none" height="15" viewBox="0 0 15 15" width="15" xmlns="http://www.w3.org/2000/svg">
+						<g stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+							<path d="m14.5.5-14 14" />
+							<path d="m14.5 14.5-14-14" />
+						</g>
+					</svg>
+				</button>
+			</div>
+
+
+
+			<div class="innerBtn">
+				<button class="prev">
+					<svg fill="none" height="11" viewBox="0 0 21 11" width="21" xmlns="http://www.w3.org/2000/svg">
+						<path d="m.5 10.5 10-10 10 10" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+							stroke-miterlimit="10" />
+					</svg>
+				</button>
+				<button class="next">
+					<svg fill="none" height="11" viewBox="0 0 21 11" width="21" xmlns="http://www.w3.org/2000/svg">
+						<path d="m.5 10.5 10-10 10 10" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+							stroke-miterlimit="10" />
+					</svg>
+				</button>
+			</div>
+
+		</section>
+		<section id="main">
+
+			<div class="wrap">
+				<div class="webgl404"></div>
+			</div>
+
+			<div class="wrap">
+				<div class="flex f404">
+					<div class="back">
+						<a href="/" class="hover lien">
+							<span>Back to the club</span>
+							<svg fill="none" height="30" viewBox="0 0 30 30" width="30"
+								xmlns="http://www.w3.org/2000/svg">
+								<g stroke="#fff" stroke-miterlimit="10" stroke-width="1.875">
+									<path
+										d="m1.40625 9.84375h21.56255c1.4918 0 2.9225.59265 3.9774 1.64755s1.6476 2.4856 1.6476 3.9775v11.7187" />
+									<path d="m8.4375 16.875-7.03125-7.03125 7.03125-7.03125" stroke-linecap="square" />
+								</g>
+							</svg>
+							<span class="bas">Back to the club</span>
+
+						</a>
+					</div>
+
+					<div class="broke">
+						<h1>That’s a <br />bummer</h1>
+						<p>(404 Error page)</p>
+					</div>
+				</div>
+			</div>
+
+			<section id="garciScroll"></section>
+
+			<section id="footer2">
+				<a href="https://mail.google.com/mail/?view=cm&fs=1&to=8lackcandy@gmail.com" class="toContact"
+					target="_blank">
+					<span>I am a Noob</span><span>I am oob</span><span>I am a Noob</span>
+				</a>
+
+				<footer class="wrap flex space center">
+					<div>
+						<a target="_blank" href="https://twitter.com/suryaxprasath" class="hover">
+							<span class="mot1"><span>Twitter</span></span>
+							<span class="mot2"><span>Twitter</span></span>
+						</a>
+					</div>
+					<div>
+						<a target="_blank" href="https://github.com/surya-prasath" class="hover">
+							<span class="mot1"><span>Github</span></span>
+							<span class="mot2"><span>Github</span></span>
+						</a>
+					</div>
+					<div>
+						<a target="_blank" href="https://www.instagram.com/suryaxprasath" class="hover">
+							<span class="mot1"><span>Instagram</span></span>
+							<span class="mot2"><span>Instagram</span></span>
+						</a>
+					</div>
+					<div>
+						<a target="_blank" href="https://www.linkedin.com/in/surya-prasath-158227235/" class="hover">
+							<span class="mot1"><span>LinkedIn</span></span>
+							<span class="mot2"><span>LinkedIn</span></span>
+						</a>
+					</div>
+				</footer>
+			</section>
+		</section>
+
+		<section id="webgl" class="cache"></section>
+
+		<script src="../static/js/app.js"></script>
+	</body>
+
+</html>
